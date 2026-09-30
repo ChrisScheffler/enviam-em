@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "enviaM Energy Monitor",
+        "description": "Melde dich mit deinen enviaM-Energy-Monitor-Zugangsdaten an.",
+        "data": {
+          "username": "Benutzername",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "enviaM Energy Monitor erneut anmelden",
+        "description": "Die Zugangsdaten für {username} sind nicht mehr gültig. Bitte gib das neue Passwort ein.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Benutzername oder Passwort ist ungültig.",
+      "cannot_connect": "Der enviaM-Dienst ist nicht erreichbar."
+    },
+    "abort": {
+      "already_configured": "Dieser Benutzer ist bereits eingerichtet.",
+      "reauth_successful": "Die erneute Anmeldung war erfolgreich."
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# IDE-Metadaten gehören nicht ins Repository
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
